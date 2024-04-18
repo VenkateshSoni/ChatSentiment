@@ -1,4 +1,3 @@
-```markdown
 # ChatSentiment
 
 ChatSentiment is a Streamlit web application for analyzing the sentiment of chat messages. It uses the Hugging Face Llama model for generating responses and TextBlob for sentiment analysis.
