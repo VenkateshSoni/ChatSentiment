@@ -16,6 +16,7 @@ import os
 import nltk
 from nltk.corpus import brown
 
+"""Downloading punkt for textblob sentiment analysis."""
 nltk.download('punkt')
 
 HUGGINGFACEHUB_API_TOKEN: st.secrets["HUGGINGFACEHUB_API_TOKEN"]
