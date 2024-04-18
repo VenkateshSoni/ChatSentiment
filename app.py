@@ -16,7 +16,6 @@ import os
 import nltk
 from nltk.corpus import brown
 
-textblob.download_corpora
 nltk.download('punkt')
 
 HUGGINGFACEHUB_API_TOKEN: st.secrets["HUGGINGFACEHUB_API_TOKEN"]
