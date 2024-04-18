@@ -1,5 +1,6 @@
 import streamlit as st 
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
+import textblob
 from textblob import TextBlob
 import plotly.graph_objects as go
 import plotly.express as px
@@ -12,6 +13,11 @@ from collections import Counter
 from datetime import datetime
 from getpass import getpass
 import os
+import nltk
+from nltk.corpus import brown
+
+textblob.download_corpora
+nltk.download('punkt')
 
 HUGGINGFACEHUB_API_TOKEN: st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
