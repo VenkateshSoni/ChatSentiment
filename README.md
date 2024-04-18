@@ -14,7 +14,7 @@ ChatSentiment is a Streamlit web application for analyzing the sentiment of chat
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/VenkateshSoni/ChatSentiment.git](https://github.com/VenkateshSoni/ChatSentiment.git)
+   git clone https://github.com/VenkateshSoni/ChatSentiment.git
    ```
 
 2. Navigate to the project directory:
