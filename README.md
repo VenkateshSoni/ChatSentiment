@@ -2,6 +2,8 @@
 
 ChatSentiment is a Streamlit web application for analyzing the sentiment of chat messages. It uses the Hugging Face Llama model for generating responses and TextBlob for sentiment analysis.
 
+### Try the streamlit app: https://chatsentiment.streamlit.app/
+
 ## Features
 
 - **Sentiment Analysis:** Analyzes the sentiment of chat messages and generates a report showing the distribution of positive, negative, and neutral sentiments.
@@ -27,6 +29,11 @@ ChatSentiment is a Streamlit web application for analyzing the sentiment of chat
 
    ```bash
    pip install -r requirements.txt
+   ```
+4. Run following command in terminal to start the app.
+
+   ```bash
+   streamlit run app.py
    ```
 
 ## Usage
