@@ -62,12 +62,11 @@ def generate_answer(question):
     client = Client("huggingface-projects/llama-2-7b-chat")
     result = client.predict(
         message=question,
-        request=question,
-        param_3=1024,
-        param_4=0.6,
-        param_5=0.9,
-        param_6=50,
-        param_7=1.2,
+        max_new_tokens=1024,
+        temperature=0.6,
+        top_p=0.9,
+        top_k=50,
+        repetition_penalty=1.2,
         api_name="/chat"
     )
     return result
