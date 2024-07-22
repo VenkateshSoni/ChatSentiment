@@ -62,6 +62,7 @@ def generate_answer(question):
     client = Client("huggingface-projects/llama-2-7b-chat")
     result = client.predict(
         message=question,
+        system_prompt="Hello!!",
         max_new_tokens=1024,
         temperature=0.6,
         top_p=0.9,
