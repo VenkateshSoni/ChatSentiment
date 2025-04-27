@@ -59,7 +59,7 @@ def generate_answer(question):
     Returns:
         str: The generated answer.
     """
-    client = Client("huggingface-projects/llama-2-7b-chat")
+    client = Client("ysharma/Chat_with_Meta_llama3_1_8b")
     result = client.predict(
         message=question,
         system_prompt="Hello!!",
