@@ -62,12 +62,12 @@ def generate_answer(question):
     client = Client("ysharma/Chat_with_Meta_llama3_1_8b")
     result = client.predict(
         message=question,
-        system_prompt="Hello!!",
+        #system_prompt="Hello!!",
         max_new_tokens=1024,
         temperature=0.6,
-        top_p=0.9,
-        top_k=50,
-        repetition_penalty=1.2,
+        #top_p=0.9,
+        #top_k=50,
+        #repetition_penalty=1.2,
         api_name="/chat"
     )
     return result
